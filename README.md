@@ -15,8 +15,8 @@ Beginning with Java 2 circa 2000 and jumping forward to approximately 2018, ther
 
 # Questions
 1. Creating a Graphical User interface, possibly with javaFX
-  a. creating drag and drop objects
-  b. creating objects that can be dragged and dropped within higher level drag and dropable objects, ie. Nested
+1a. creating drag and drop objects
+1b. creating objects that can be dragged and dropped within higher level drag and dropable objects, ie. Nested
 2. Outputting to Spreadsheet
 3. Creating an API to SAP
 4. Integrating to Android Development Kit, with the possibility of a Kotlin API
@@ -29,8 +29,8 @@ w3schools.com as a primary refernce and working towards self guided development
 
 # Timeframe
 1. 11/15 - 11/20
- a. 11/20 - 11/24
- b. 11/24 - 12/5
+1a. 11/20 - 11/24
+1b. 11/24 - 12/5
 2. 12/5 - 12/18
 3. 12/18 - 3/1
 4. 3/1 - 5/1
