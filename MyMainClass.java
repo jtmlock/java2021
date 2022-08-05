@@ -2,30 +2,41 @@
 /* long comment */
 
 
-class MyClass
+public class Main
 // changing class name to MyClass and saving as MyClass to correctly use
 // class saved with file name
 {
 	// Main method
     public static void main(String[] args)
     {
-		myStaticMethod(); // Call the static method
+		// myStaticMethod(); // Call the static method
 		// Static methods can be called without creating objects
+		// myObj();
 
-		myObj firstObject = new myObj(); // Create an object of Main
-		// myObj.myPublicMethod(); // Call the public method on the object
+		Main myCar = new Main(); // Create an object of Main
+		// myObj.myPublicMethod();	// Call the public method on the object
+		myCar.fullThrottle();		// Call the fullThrottle() method
+		myCar.speed(200);			// Call the speed() method
+
 
 	}
 
-	public void myObj()
+	static void myObj()
 	{
 		int x = 555;
-		system.out.println("x = 555");
+		System.out.println("x = 555");
+	}
 
   	// Create a fullThrottle() method
-  	public void fullThrottle() {
-    System.out.println("The car is going as fast as it can!");
+  	public void fullThrottle()
+  	{
+    	System.out.println("The car is going as fast as it can!");
   	}
+
+  	public void speed(int maxSpeed)
+  	{
+		System.out.println("Max speed is: " + maxSpeed);
+	}
 
   	// Create a speed() method and add a parameter
   	public void speed(int maxSpeed) {
